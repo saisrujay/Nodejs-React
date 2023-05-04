@@ -13,11 +13,11 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={< Home />} />
-        <Route path="/one" element={<One />} />
-        <Route path="/two" element={<Two />} />
-        <Route path="/three" element={<Three /> } />
-        <Route path="/four" element={<Four /> } />
-        <Route path="/five" element={<Five />} />
+        <Route path="/users/bmw-mercedes-income" element={<One />} />
+        <Route path="/users/male-expensive-phone" element={<Two />} />
+        <Route path="/users/last-name-starts-with-m" element={<Three /> } />
+        <Route path="/users/bmw-mercedes-audi-no-digit-email" element={<Four /> } />
+        <Route path="/cities/top-10-users" element={<Five />} />
       </Routes>
     </BrowserRouter> 
   );

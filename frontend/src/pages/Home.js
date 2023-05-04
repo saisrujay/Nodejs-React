@@ -6,19 +6,19 @@ const Home = () => {
     const navigate = useNavigate();
 
     const nav1 = async() => {
-        navigate("/one");
+        navigate("/users/bmw-mercedes-income");
     }
     const nav2 = async() => {
-        navigate("/two");
+        navigate("/users/male-expensive-phone");
     }
     const nav3 = async() => {
-        navigate("/three");
+        navigate("/users/last-name-starts-with-m");
     }
     const nav4 = async() => {
-        navigate("/four");
+        navigate("/users/bmw-mercedes-audi-no-digit-email");
     }
     const nav5 = async() => {
-        navigate("/five");
+        navigate("/cities/top-10-users");
     }
 
     const buttonStyle = {
